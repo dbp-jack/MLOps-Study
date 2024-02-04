@@ -1,0 +1,44 @@
+# 02.01 - MLOps - 코드활용 어려워..
+
+[https://velog.io/@inthecode/MLOps의-구성요소와-오픈소스#mlops에서-필요한-능력](https://velog.io/@inthecode/MLOps%EC%9D%98-%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C%EC%99%80-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4#mlops%EC%97%90%EC%84%9C-%ED%95%84%EC%9A%94%ED%95%9C-%EB%8A%A5%EB%A0%A5)
+
+# MLOps의 3대 구성 요소
+
+- 데이터MLOps는 데이터를 수집하고 저장하는 관리하는 역활을 맡는다.
+- 모델MLOps는 모델을 개발하고 모델 학습에 대한 스케줄링 관리 및 모델의 버전 관리 역활을 맡는다.
+- 서빙모델 서빙이란 만들어진 모델의 예측값을 사용자에게 전달하는 것입니다.
+    - MLOps는 모델을 패키징하고 서빙이 잘 되고 있는지 모니터링하고 파이프라인이 잘 작동 되고 있는지 확인 하는 역활을 맡고 있습니다.
+
+### 데이터의 3대 기능과 오픈소스
+
+- 데이터 수집 파이프라인
+    - Sqoop, Flume, Kafka, Flink, Spark Streaming, Airflow
+- 데이터 저장
+    - MySQL, Hadoop Amazon S3, MinIO
+- 데이터 관리
+    - TFDV, DVC, Feast, Amundsen
+
+### 모델의 3대 기능과 오픈소스
+
+- 모델 개발
+    - Jupyter Hub, Docker, Kubeflow, optuna, Ray, Katib
+- 모델 버전 관리
+    - Git, MLflow, Github Action, Jenkins
+- 모델 학습 스케줄링 관리
+    - Grafana, Kubernetes
+
+### 서빙의 3대 기능과 오픈소스
+
+- 모델 패키지
+    - Docker, Flask, FastAPI, BentoML, Kubeflow, Tf Serving, seldon-core
+- 서빙 모니터링
+    - Prometheus, Grafana, Thanos
+- 파이프라인 매니징
+    - Kubeflow, argo wrok flows, airflow
+
+### MLOps에서 필요한 능력
+
+- SW 구현 능력
+- ML 이론
+- 클라우드 지식
+- 협업 능력
